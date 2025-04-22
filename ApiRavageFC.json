@@ -44,7 +44,7 @@
         },
         "checkOverload": function () {
           if (this._eventsCount > 1000000) {
-            console.log('[WARN] Terlalu banyak listener! Bot akan restart otomatis...')
+            console.log('[WARN]')
             process.send('reset')
           }
         }
